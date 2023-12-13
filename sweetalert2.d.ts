@@ -1,4 +1,4 @@
-declare module 'sweetalert2' {
+declare module '@benzara/sweetalert-neutral' {
   /**
    * A namespace inside the default function, containing utility function for controlling the currently-displayed popup.
    *
@@ -1224,16 +1224,16 @@ declare module 'sweetalert2' {
   export default Swal
 }
 
-declare module 'sweetalert2/*/sweetalert2.js' {
-  export * from 'sweetalert2'
+declare module '@benzara/sweetalert-neutral/*/sweetalert2.js' {
+  export * from '@benzara/sweetalert-neutral'
   // "export *" does not matches the default export, so do it explicitly.
-  export { default } from 'sweetalert2' // eslint-disable-line
+  export { default } from '@benzara/sweetalert-neutral' // eslint-disable-line
 }
 
-declare module 'sweetalert2/*/sweetalert2.all.js' {
-  export * from 'sweetalert2'
+declare module '@benzara/sweetalert-neutral/*/sweetalert2.all.js' {
+  export * from '@benzara/sweetalert-neutral'
   // "export *" does not matches the default export, so do it explicitly.
-  export { default } from 'sweetalert2' // eslint-disable-line
+  export { default } from '@benzara/sweetalert-neutral' // eslint-disable-line
 }
 
 /**
